@@ -38,4 +38,4 @@ def load_and_average_checkpoints(checkpoint_paths, device='cuda'):
     return soup_model
 
 
-soup_model = load_and_average_checkpoints(paths)
+soup_model = load_and_average_checkpoints(paths, save_path="esm2_35M_souped.pt")
